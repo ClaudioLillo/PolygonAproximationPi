@@ -16,3 +16,4 @@ I present an algorithm to estimates the pi value using a regular polygon simulat
 ![Figure 1](./Images/figure1.jpg)
 
 
+
