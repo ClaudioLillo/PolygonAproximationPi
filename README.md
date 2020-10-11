@@ -13,7 +13,4 @@ If a regular polygon with N sides and mayor diagonal = D is used. When N is a ve
 
 I present an algorithm to estimates the pi value using a regular polygon simulation of 2^n sides and diameter = 1. The script was written on Python 3.7.
 
-![Figure 1](./Images/figure1.jpg)
-
-
-
+![Figure 1](./Images/Fig1.jpg)
