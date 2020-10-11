@@ -7,34 +7,30 @@
 
 
 
-def estimatesPi(sides):
-    if sides < 4:
-        return (0)
-    m=1
+def estimatesPi(iter):
+    m=(0.5)**0.5
     n=4
     d=2**(0.5)
-    for i in range(0,sides-4):
+    for i in range(0,iter):
         aux=(1-((d/2)**2))**(0.5)
         a=1-aux
         m=((a**2)+((d/2)**2))**(0.5)
         n=n*2
         d=m
     pi=(n*m)/2
-    return(pi)
+    return([pi,n])
 
+while True:
+    print("================================================")
+    iter = int(input("Number of iterations of algorithm: "))
+    init = input("Press Y to continue, N to exit: ")
 
-print("================================================")
-sides = int(input("Number of sides of polygon (>=4): "))
-init = input("Press Y to continue, N to exit: ")
-
-if init=="Y" or init=="y":
-    result=estimatesPi(sides)
-    if result:
-        print("Estimated value of Pi using a ",sides," sides regular polygon is ",estimatesPi(sides))
+    if init=="Y" or init=="y":
+        result=estimatesPi(iter)
+        if result:
+            print("Estimated value of Pi using a ",result[1]," sides regular polygon is ",result[0])
     else:
-        print("Please use a number equal or bigger than 4")
-else:
-    print("Bye")
+        print("Bye")
 
 
 
