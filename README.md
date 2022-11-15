@@ -1,10 +1,10 @@
 # PolygonAproximationPi
-Aproximation of Pi by using a regular polygon with a very large number of sides.
 
+Aproximation of Pi number by using a regular polygon with a very large number of sides.
 
 Definition of Pi is the cuocient between perimeter and diameter of a circle. We can get an aproximate value of Pi measuring this parameters, but it implicates experimental errors.
 
-Perfect  circle is a figure in wich every point is equaly near of a central point. 
+Perfect circle is a figure in wich every point is equaly near of a central point.
 
 On the other hand, vertices of regular polygons are also equaly near of the polygon center.
 
@@ -16,5 +16,3 @@ I present an algorithm to estimates the pi value using a regular polygon simulat
 ![Figure 1](./Images/Fig1.jpg)
 
 Figure 1 shows how difference between circle and polygon is minor when N value increases.
-
-
